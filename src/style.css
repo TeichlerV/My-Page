@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(0.25turn, #2d033b, #3f0071, #2d033b);
+}
+.navbar-profile {
+  border-radius: 30px;
+}
+.navbar-light {
+  background-color: #810ca8;
+}
