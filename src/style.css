@@ -3,6 +3,7 @@ body {
 }
 .navbar-profile {
   border-radius: 30px;
+  margin: 10px;
 }
 .navbar-light {
   background-color: linear-gradient(0.25turn, #2d033b, #3f0071, #2d033b);
@@ -12,4 +13,34 @@ body {
 }
 .navbar-brand {
   color: white;
+}
+p {
+  color: white;
+}
+/* Education */
+.university {
+  width: 350px;
+  height: 350px;
+  border-radius: 4px;
+  border: solid white;
+}
+.courses {
+  width: 350px;
+  height: 350px;
+  border-radius: 4px;
+  border: solid white;
+  display: block;
+  margin: 0 auto;
+}
+.cards {
+  color: white;
+}
+.name-school {
+  font-size: 20px;
+}
+.degree {
+  font-size: 16px;
+}
+.years {
+  font-size: 12px;
 }
