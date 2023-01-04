@@ -1,3 +1,6 @@
+:root {
+  --main-text-color: #f0f0f0;
+}
 body {
   background: linear-gradient(0.25turn, #2d033b, #3f0071, #2d033b);
 }
@@ -9,38 +12,45 @@ body {
   background-color: linear-gradient(0.25turn, #2d033b, #3f0071, #2d033b);
 }
 .nav-link {
-  color: white;
+  color: var(--main-text-color);
 }
 .navbar-brand {
-  color: white;
+  color: var(--main-text-color);
 }
 p {
-  color: white;
+  color: var(--main-text-color);
 }
 /* Education */
-.university {
-  width: 350px;
-  height: 350px;
-  border-radius: 4px;
-  border: solid white;
-}
+.university,
 .courses {
-  width: 350px;
-  height: 350px;
   border-radius: 4px;
-  border: solid white;
-  display: block;
-  margin: 0 auto;
+  border: solid var(--main-text-color);
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  line-height: 1, 5;
 }
 .cards {
-  color: white;
+  color: var(--main-text-color);
+  display: flex;
 }
-.name-school {
-  font-size: 20px;
+h4 {
+  text-align: center;
 }
-.degree {
+.name-school,
+.course-name {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.degree,
+.content {
   font-size: 16px;
 }
 .years {
   font-size: 12px;
+}
+.shecodes-links {
+  color: #b368ab;
+  text-decoration: none;
+  margin: 10px;
 }
