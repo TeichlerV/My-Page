@@ -3,22 +3,18 @@
 }
 body {
   background: linear-gradient(0.25turn, #2d033b, #3f0071, #2d033b);
+  color: white;
 }
-.navbar-profile {
-  border-radius: 30px;
-  margin: 10px;
+h1 {
+  text-align: center;
+  margin-top: 20px;
 }
-.navbar-light {
-  background-color: linear-gradient(0.25turn, #2d033b, #3f0071, #2d033b);
+h4 {
+  text-align: center;
+  margin-bottom: 30px;
 }
-.nav-link {
-  color: var(--main-text-color);
-}
-.navbar-brand {
-  color: var(--main-text-color);
-}
-p {
-  color: var(--main-text-color);
+.card {
+  background-color: transparent;
 }
 /* Education */
 .university,
@@ -34,9 +30,7 @@ p {
   color: var(--main-text-color);
   display: flex;
 }
-h4 {
-  text-align: center;
-}
+
 .name-school,
 .course-name {
   font-size: 22px;
@@ -53,4 +47,16 @@ h4 {
   color: #b368ab;
   text-decoration: none;
   margin: 10px;
+}
+ul {
+  list-style: none;
+}
+.vr {
+  width: 2px;
+  color: white;
+}
+.nav-link {
+  border: solid 1px white;
+  border-radius: 25px;
+  text-align: center;
 }
