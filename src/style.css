@@ -1,21 +1,49 @@
 :root {
   --main-text-color: #f0f0f0;
+  --box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
 }
 body {
-  background: linear-gradient(0.25turn, #2d033b, #3f0071, #2d033b);
+  background: #53076d;
   color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
 }
+
 h1 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: "Exo", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Solitreo", cursive;
+  font-size: 50px;
 }
 h4 {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+hr {
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+a {
+  color: #f0f0f0;
 }
 .card {
   background-color: transparent;
+  border: none;
 }
+.card-img {
+  margin: 10px;
+}
+.card-title a {
+  text-decoration: none;
+}
+
 /* Education */
 .university,
 .courses {
@@ -51,12 +79,27 @@ h4 {
 ul {
   list-style: none;
 }
+li {
+  margin-right: 30px;
+}
 .vr {
   width: 2px;
   color: white;
+  height: 150px;
 }
 .nav-link {
-  border: solid 1px white;
-  border-radius: 25px;
+  border: solid 1.5px white;
+  border-radius: 5px 20px 5px;
   text-align: center;
+  color: white;
+  box-shadow: var(--box-shadow);
+  background-color: #b368ab;
+}
+@media (max-width: 770px) {
+  .vr {
+    display: none;
+  }
+  .nav-link {
+    margin: 10px;
+  }
 }
