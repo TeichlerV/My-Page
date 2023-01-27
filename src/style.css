@@ -32,7 +32,6 @@ h1 {
   background-color: #b368ab;
   padding: 5px 20px;
 }
-
 hr {
   width: 450px;
   display: block;
@@ -91,13 +90,21 @@ a {
 }
 /* About */
 .cut-pic {
+  position: relative;
+  top: -150px;
+  right: 100px;
 }
 
-@media (max-width: 1000px) {
-  .vr {
-    display: none;
+@media (max-width: 500px) {
+  .menu {
+    flex-direction: column;
   }
-  .nav-link {
+  .menu a {
     margin: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .cut-pic {
+    display: none;
   }
 }
