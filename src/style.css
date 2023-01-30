@@ -27,6 +27,7 @@ h3 {
 .menu {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 50px;
 }
 .nav-link {
   border: solid 1.5px white;
@@ -96,10 +97,17 @@ a {
 /* About */
 .cut-pic {
   position: relative;
-  top: -230px;
+  top: -270px;
   right: 60px;
 }
-
+.about-pic {
+  border-radius: 50px;
+  box-shadow: var(--box-shadow);
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
 @media (max-width: 500px) {
   .menu {
     flex-direction: column;
