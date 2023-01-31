@@ -4,6 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo&amp;family=Montserrat&amp;family=Quicksand&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo&family=Montserrat&family=Quicksand&family=Solitreo&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,60 +25,35 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <div class="container">
-        <a href="#" class="navbar-brand">
-          <img
-            src="visuals/headpicBV.jpg"
-            class="navbar-profile"
-            alt=""
-            width="50px"
-            height="55px"
-          />
-          Viktoria Teichler</a
-        >
-        <button
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          class="navbar-toggler"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a href="aboutme.html" class="nav-link">About me</a>
-            </li>
-            <li class="nav-item active">
-              <a href="projects.html" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item active">
-              <a href="education.html" class="nav-link">Education</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <hr />
+    <h1>Viktoria Teichler</h1>
+    <h3 class="text-center text-muted">Junior Front-end developer</h3>
+    <hr / class="mb-5">
 
+    <div class="menu">
+      <a class="nav-link" href="#">Contact</a>
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="aboutme.html">About</a>
+    </div>
+    <h4 class="text-center">Education</h4>
     <div class="container">
       <div class="cards">
         <div class="university">
           <h4>University</h4>
-          <div class="name-school">Lund University</div>
+          <img src="visuals/lund.png" alt="" width="30px" />
+          <span class="name-school">Lund University</span>
           <div class="degree">Master's degree in Service Management</div>
           <div class="years">2018 - 2020</div>
           <br />
-          <div class="name-school">Dalarna University</div>
+          <img src="visuals/dalarna.png" alt="" width="30px" />
+          <span class="name-school">Dalarna University</span>
           <div class="degree">
             Bachelor degree in business administration and management, General
           </div>
           <div class="years">2014 - 2018</div>
           <br />
-          <div class="name-school">South East European University (seeu)</div>
+          <img src="visuals/seeu.png" alt="" width="30px" />
+          <span class="name-school">South East European University (seeu)</span>
           <div class="degree">
             One year of study in North Macedonia as an exchange student
           </div>
@@ -76,6 +63,17 @@
         <div class="courses">
           <h4>Courses</h4>
           <h5>SheCodes</h5>
+          <div class="course-name">React</div>
+          <div class="content">
+            React Three week intensive course to learn React. This course is
+            expected to be completed 27/2-2023.
+          </div>
+
+          <div class="course-name">Responsive</div>
+          <div class="content">
+            Three week intensive course on how to make applications responsive.
+            This course is still running and I expect to be done 6/2-2023.
+          </div>
           <div class="course-name">Web Development</div>
           <div class="content">
             Eight weeks of more advanced learning in the SheCodes Plus workshop.
