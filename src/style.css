@@ -54,10 +54,15 @@ a {
 .card {
   background-color: transparent;
   border: none;
+  margin: 10px;
 }
 .cards {
   display: flex;
   justify-content: space-evenly;
+}
+.card-img-top {
+  border-radius: 30px;
+  width: 250px;
 }
 /* Education */
 .university,
@@ -118,6 +123,9 @@ iframe {
   }
   .menu a {
     margin: 10px;
+  }
+  hr {
+    width: 230px;
   }
 }
 @media (max-width: 900px) {
