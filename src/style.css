@@ -55,13 +55,10 @@ a {
   background-color: transparent;
   border: none;
 }
-.card-img {
-  margin: 10px;
+.cards {
+  display: flex;
+  justify-content: space-evenly;
 }
-.card-title a {
-  text-decoration: none;
-}
-
 /* Education */
 .university,
 .courses {
@@ -72,7 +69,7 @@ a {
   padding: 20px;
   line-height: 1, 5;
 }
-.cards {
+.cards-education {
   color: var(--main-text-color);
   display: flex;
 }
