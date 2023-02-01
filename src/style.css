@@ -1,12 +1,12 @@
 :root {
   --main-text-color: #f0f0f0;
   --box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  --primary-color: #683b63;
 }
 body {
   background: #250331;
   color: white;
   font-family: "Montserrat", sans-serif;
-  margin-top: 30px;
 }
 
 h1 {
@@ -29,13 +29,17 @@ h3 {
   justify-content: space-evenly;
   margin-bottom: 50px;
 }
+.head {
+  background-color: #683b63;
+  padding: 20px;
+}
 .nav-link {
   border: solid 1.5px white;
   border-radius: 5px 20px 5px;
   text-align: center;
   color: white;
   box-shadow: var(--box-shadow);
-  background-color: #b368ab;
+  background-color: var(--primary-color);
   padding: 5px 20px;
 }
 hr {
@@ -97,7 +101,7 @@ a {
 /* About */
 .cut-pic {
   position: relative;
-  top: -270px;
+  top: -330px;
   right: 60px;
 }
 .about-pic {
