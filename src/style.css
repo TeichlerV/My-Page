@@ -127,6 +127,13 @@ iframe {
   hr {
     width: 230px;
   }
+  iframe {
+    width: 260px;
+    height: 180px;
+  }
+  .about-pic {
+    width: 80px;
+  }
 }
 @media (max-width: 900px) {
   .cut-pic {
