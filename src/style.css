@@ -1,10 +1,11 @@
 :root {
-  --main-text-color: #f0f0f0;
+  --main-text-color: #683b63;
   --box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
   --primary-color: #683b63;
 }
 body {
-  background: #250331;
+  margin-top: 20px;
+  background: #ffffff;
   color: white;
   font-family: "Montserrat", sans-serif;
 }
@@ -71,28 +72,17 @@ a {
   text-align: center;
 }
 .card-title a {
-  color: #ffffff;
-  opacity: 0.5;
+  color: var(--main-text-color);
+
   text-decoration: none;
+  font-weight: 700;
 }
 
 .card-text {
   text-align: center;
+  color: var(--main-text-color);
 }
-#project-button {
-  background-color: #ffff;
-  color: var(--primary-color);
-  font-weight: bold;
-  border: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  display: block;
-}
-#project-button:hover {
-  background-color: var(--primary-color);
-  color: #ffffff;
-  transition: all 100ms linear/ease-in-out;
-  border-color: #ffffff;
-}
+
 /* Education */
 .university,
 .courses {
