@@ -141,7 +141,24 @@ iframe {
 }
 .about-text {
   line-height: 1.8;
+  color: var(--main-text-color);
 }
+h4 {
+  color: var(--main-text-color);
+  font-weight: 600;
+}
+.video-text {
+  color: var(--main-text-color);
+}
+/* Contact */
+.contact-container {
+  color: var(--main-text-color);
+}
+.contact-container a {
+  color: var(--main-text-color);
+}
+
+/*Responsive */
 @media (max-width: 500px) {
   h1 {
     font-size: 30px;
