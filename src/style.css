@@ -131,7 +131,7 @@ a {
   border: solid 1px var(--primary-color);
   padding: 5px;
   border-radius: 7px;
-  background-color: var(--primary-color);
+  background-color: #8f5188;
 }
 .certificate-link a {
   color: #b368ab;
@@ -143,12 +143,12 @@ a {
   background-color: #ffffff;
 }
 .project-link a:hover {
-  background-color: #8f5188;
+  background-color: var(--primary-color);
   color: #ffffff;
   transition: all 100ms linear/ease-in-out;
 }
 .certificate-link a:hover {
-  background-color: #8f5188;
+  background-color: var(--primary-color);
   color: #ffffff;
   transition: all 100ms linear/ease-in-out;
 }
