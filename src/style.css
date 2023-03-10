@@ -64,6 +64,7 @@ a {
   border: none;
   margin: 10px;
 }
+
 .cards {
   display: flex;
   justify-content: space-evenly;
@@ -101,11 +102,10 @@ a {
   padding: 20px;
   line-height: 1, 5;
 }
-.cards-education {
+.cards-education,
+.courses {
   color: var(--main-text-color);
-  display: flex;
 }
-
 .name-school,
 .course-name {
   font-size: 22px;
@@ -120,7 +120,11 @@ a {
   font-size: 12px;
   margin-bottom: 10px;
 }
-.project-link {
+.coding-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.project-link a {
   color: #ffffff;
   text-decoration: none;
   margin: 10px;
@@ -129,7 +133,7 @@ a {
   border-radius: 7px;
   background-color: var(--primary-color);
 }
-.certificate-link {
+.certificate-link a {
   color: #b368ab;
   text-decoration: none;
   margin: 10px;
@@ -138,12 +142,12 @@ a {
   border-radius: 7px;
   background-color: #ffffff;
 }
-.project-link:hover {
+.project-link a:hover {
   background-color: #8f5188;
   color: #ffffff;
   transition: all 100ms linear/ease-in-out;
 }
-.certificate-link:hover {
+.certificate-link a:hover {
   background-color: #8f5188;
   color: #ffffff;
   transition: all 100ms linear/ease-in-out;
@@ -218,7 +222,26 @@ h4 {
   .cut-pic {
     display: none;
   }
+  .certificate-link {
+    margin: 30px;
+  }
+  .course-name {
+    margin-top: 20px;
+  }
+  .certificate-link {
+    margin-top: 10px;
+  }
+  .coding-links {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
+@media (max-width: 1000px) {
+  .project-link {
+    font-size: 15px;
+  }
+}
+
 footer {
   color: #ffffff;
   background-color: var(--primary-color);
