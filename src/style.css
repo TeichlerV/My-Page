@@ -188,7 +188,18 @@ h4 {
 .contact-container a {
   color: var(--main-text-color);
 }
-
+.contact-info {
+  color: #b368ab;
+}
+.contact-info a:hover {
+  color: #b368ab;
+}
+.contact-info i {
+  font-size: 22px;
+}
+.phone-number {
+  margin-bottom: 60px;
+}
 /*Responsive */
 @media (max-width: 500px) {
   h1 {
@@ -245,6 +256,8 @@ h4 {
 footer {
   color: #ffffff;
   background-color: var(--primary-color);
+  width: 100%;
+  padding: 5px;
 }
 footer a:hover {
   color: #ffffff;
